@@ -12,6 +12,7 @@ int main() {
 
     //dev2∑÷÷ß MD5
     MD5 md5;
+    //–ﬁ∏¥¡Àbug
     std::cout<<md5.startMD5("hello world")<<std::flush;
 
     return 0;
