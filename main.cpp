@@ -12,8 +12,7 @@ int main() {
     force1.startForce(table,sizeof(table),tmp,passwd);
 
     //dev2分支 MD5
-    MD5 md5;
-    //修复了bug
+    MD5 md5;//修复了bug
     std::cout<<md5.startMD5("hello world")<<std::flush;
 
     return 0;
