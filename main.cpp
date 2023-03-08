@@ -4,6 +4,7 @@ char table[] = { 'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p'
 
 int main() {
     MD5 md5;
+    //ĞŞ¸´ÁËbug
     std::cout<<md5.startMD5("hello world")<<std::flush;
     return 0;
 
